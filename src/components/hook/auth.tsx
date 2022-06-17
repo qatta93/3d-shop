@@ -26,5 +26,5 @@ export function AuthProvider(){
 
   const value = { user, error, loginWithGoogle, logout, setUser}
 
-  return <authContext.Provider value={value} {...props} />
+  return <authContext.Provider value={value} />
 }
